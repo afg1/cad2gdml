@@ -30,3 +30,16 @@ Now run make:
   make
 
 I haven't put an install step in my CMakeLists.txt yet, so there is no make install. Just copy the binary "cad2gdml" into /usr/local/bin or elsewhere on your path. That's it!
+
+## Usage
+To get a reminder of this, you can just do cad2gdml with no commands:
+  cad2gdml
+  Usage:
+  cad2gdml <CAD file>
+
+That's basically it really. Note the important caveats in the Important Notes section above though.
+
+## Possible developments
+I would like to enable an optional command line argument to change the output filename, but this is pretty low on my priorities at the moment.
+
+Any further suggestions are welcome!
